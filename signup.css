@@ -1,0 +1,42 @@
+#sub{
+display:block;
+padding:5px;
+background-color:black;
+color:white;
+border:2px solid black;
+margin-left:25%;
+}
+.in{
+	margin-left:15%;
+}
+#sub:hover{
+	background-color:white;
+	color:black;
+}
+form{
+	margin-top:40px;
+	margin-left:30%;
+}
+#field2{
+	padding:25px;
+	width:50%;
+	border:3px solid black;
+}
+#field3{
+	padding:25px;
+	width:50%;
+	border:3px solid black;
+}
+#heading{
+	text-align:center;
+	font-family: "Sofia";
+}
+#a{
+	text-align:center;
+}
+#lo{
+	color:black;
+}
+#lo:hover{
+	color:red;
+}

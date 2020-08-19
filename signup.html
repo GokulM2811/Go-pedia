@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>SIGNUP FORM</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="signup.css">
+<script src="signup.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+<h1 id="heading">GO PEDIA</h1>
+<form action="log.html" onsubmit="signupdone()">
+<fieldset id="field2">
+<legend>USER DETAILS</legend>
+<label for="firstname" class="in">Firstname: </label>
+<input type="text" id="firstname" required><br><br>
+<label for="lastname" class="in">Lastname: </label>
+<input type="text" id="lastname" required><br><br>
+<label for="number" class="in">Mobile Number: </label>
+<input type="tel" id="number" pattern="[0-9]{10}" placeholder="ex: 0123456789" required><br><br>
+<label for="email" class="in">Email ID: </label>
+<input type="email" id="email" placeholder="ex: xyz@gamil.com" required><br><br>
+<label for="occupation" class="in">Occupation</label>
+<input list="occupation">
+<datalist id="occupation">
+<option>Student</option>
+<option>self-employed</option>
+<option>government-employed</option>
+<option>Farmer</option>
+<option>employee</option>
+</datalist>
+</fieldset><br><br>
+<fieldset id="field3">
+<legend>ACCOUNT DETAIL</legend>
+<label for="username" class="in">Username: </label>
+<input type="text" id="username" required><br><br>
+<label for="password" class="in">Password: </label>
+<input type="password" id="password" required>
+</fieldset><br>
+<input type="submit" value="Submit" id="sub">
+</form>
+<p id="a"><b>Already a user? </b><a href="log.html" id="lo"><b>Login</b></a></p>
+</body>
+</html>

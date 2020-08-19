@@ -1,0 +1,22 @@
+#heading{
+	text-align:center;
+	font-family: "Sofia";
+}
+#pannel{
+	background-color:black;
+	padding:12px;
+	display:block;
+	text-align:right;
+}
+.p{
+	color:white;
+	padding:13px;
+	text-decoration:none;
+}
+.p:hover{
+	color:black;
+	background-color:gray;
+}
+h1{
+	text-align:center;
+}
